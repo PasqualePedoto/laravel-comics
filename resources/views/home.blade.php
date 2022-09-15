@@ -67,5 +67,8 @@
             </div>
         </div>
     </header>
+
+    <!-- JUMBOTRON -->
+    <div id="jumbotron"></div>
 </body>
 </html>
