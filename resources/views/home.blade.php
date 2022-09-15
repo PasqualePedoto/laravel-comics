@@ -90,5 +90,41 @@
             </div>
         </div>
     </main>
+    <section id="merchandizing-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-buy">
+                    <figure>
+                        <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="">
+                    </figure>
+                    <div class="buy-text">DIGITAL COMICS</div>
+                </div>
+                <div class="col-buy">
+                    <figure>
+                        <img src="{{ asset('images/buy-comics-merchandise.png') }}" alt="">
+                    </figure>
+                    <div class="buy-text">DC MERCHANDIZING</div>
+                </div>
+                <div class="col-buy">
+                    <figure>
+                        <img src="{{ asset('images/buy-comics-shop-locator.png') }}" alt="">
+                    </figure>
+                    <div class="buy-text">SUBSCRIPTION</div>
+                </div>
+                <div class="col-buy">
+                    <figure>
+                        <img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt="">
+                    </figure>
+                        <div class="buy-text">COMIC SHOP LOCATOR</div>
+                </div>
+                <div class="col-buy">
+                    <figure>
+                        <img src="{{ asset('images/buy-dc-power-visa.svg') }}" alt="">
+                    </figure>
+                    <div class="buy-text">DC POWER VISA</div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
