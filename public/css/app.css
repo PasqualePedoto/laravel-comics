@@ -27,6 +27,14 @@ figure {
   height: 100%;
 }
 
+.flex {
+  display: flex;
+}
+
+.w-50 {
+  width: 50%;
+}
+
 .container {
   max-width: 100%;
   width: 1180px;
@@ -36,7 +44,7 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 0;
+  padding: 30px 0;
   flex-wrap: wrap;
 }
 .container .row .col {
@@ -173,4 +181,58 @@ main figure {
 
 #merchandizing-area {
   background-color: var(--primary-color);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+footer {
+  background-image: url("../images/footer-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+footer #coockies {
+  color: grey;
+}
+footer #coockies a {
+  color: var(--primary-color);
+}
+
+#top-footer {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+}
+#top-footer #footer-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#top-footer #footer-links .image-footer {
+  height: 400px;
+}
+#top-footer #footer-links div {
+  width: calc(33.3333333333% - 10px);
+  margin-right: 10px;
+}
+#top-footer #footer-links h4 {
+  color: white;
+  font-weight: bold;
+}
+#top-footer #footer-links ul {
+  margin-bottom: 20px;
+}
+#top-footer #footer-links ul li {
+  color: grey;
+  margin: 10px 0;
+}
+
+#bottom-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
