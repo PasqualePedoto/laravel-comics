@@ -1,0 +1,35 @@
+main {
+    background-color: #1c1c1c;
+
+    padding: 50px 0;
+
+    figure {
+        height: 100%;
+    }
+}
+
+// Titolo della card
+
+.card-title {
+    color: white;
+
+    padding: 10px 0;
+}
+
+// Modelliamo la posizione del button nel main
+
+.button-in-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 50px 0;
+
+    a {
+        display: block;
+        padding: 16px 40px;
+
+        color: white;
+        background-color: var(--primary-color);
+    }
+}

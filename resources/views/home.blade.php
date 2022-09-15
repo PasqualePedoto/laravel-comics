@@ -1,5 +1,6 @@
 @php
     $header_links = config('header_links');
+    $comics = config('comics');
 @endphp
 
 <!DOCTYPE html>
@@ -70,5 +71,24 @@
 
     <!-- JUMBOTRON -->
     <div id="jumbotron"></div>
+
+    <!-- Main -->
+    <main>
+        <div class="container">
+            <div class="row">
+                @foreach($comics as $comic)
+                    <div class="col">
+                        <figure>
+                            <img src="{{ $comic['thumb'] }}" alt="">
+                        </figure>
+                        <div class="card-title">{{ $comic['series'] }}</div>
+                    </div>
+                @endforeach
+            </div>
+            <div class="button-in-main">
+                <a href="#">LOAD MORE</a>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

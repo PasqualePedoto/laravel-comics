@@ -19,14 +19,29 @@ img {
   height: 100%;
 }
 
+figure {
+  margin: 0;
+}
+
+.h-100 {
+  height: 100%;
+}
+
 .container {
   max-width: 100%;
   width: 1180px;
   margin: 0 auto;
 }
-
-.h-100 {
-  height: 100%;
+.container .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .row .col {
+  width: calc(16.6666666667% - 10px);
+  height: 200px;
+  margin-bottom: 40px;
 }
 
 :root {
@@ -65,7 +80,6 @@ TOP HEADER
   padding: 10px 0;
 }
 #top-header .content-top-header figure {
-  margin: 0;
   width: 80px;
   height: 80px;
 }
@@ -113,4 +127,30 @@ TOP HEADER
   background-repeat: no-repeat;
   height: 700px;
   width: 100%;
+}
+
+main {
+  background-color: #1c1c1c;
+  padding: 50px 0;
+}
+main figure {
+  height: 100%;
+}
+
+.card-title {
+  color: white;
+  padding: 10px 0;
+}
+
+.button-in-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+.button-in-main a {
+  display: block;
+  padding: 16px 40px;
+  color: white;
+  background-color: var(--primary-color);
 }
