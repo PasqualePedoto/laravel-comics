@@ -1,0 +1,31 @@
+// Settiamo tutti i blocchi
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Settiamo queste particolarità che non ci piacciono
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+// Definiamo il container
+.container {
+    max-width: 100%;
+    width: 1180px;
+    margin: 0 auto;
+}
