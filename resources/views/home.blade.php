@@ -197,7 +197,31 @@
             </div>
         </div>
         <!-- BOTTOM FOOTER -->
-        <div id="bottom-footer"> </div>
+        <div id="bottom-footer">
+            <div class="container">
+                <div class="bottom-footer-content">
+                    <a href="#" class="sign-up">SIGN-UP NOW!</a>
+                    <div id="social-links">
+                        <div class="follow-us">FOLLOW US</div>
+                        <figure>
+                            <img src="../images/footer-facebook.png" alt="">
+                        </figure>
+                        <figure>
+                            <img src="../images/footer-periscope.png" alt="">
+                        </figure>
+                        <figure>
+                            <img src="../images/footer-pinterest.png" alt="">
+                        </figure>
+                        <figure>
+                            <img src="../images/footer-twitter.png" alt="">
+                        </figure>
+                        <figure>
+                            <img src="../images/footer-youtube.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

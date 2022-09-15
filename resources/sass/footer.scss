@@ -62,4 +62,40 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+
+    .bottom-footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    padding: 20px 0;
+
+    background-color: #303030;
+
+    #social-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        > figure {
+            margin: 0 10px;
+
+            width: 30px;
+            height: 30px;
+        }
+
+        .follow-us {
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+    }
+    .sign-up {
+        display: block;
+
+        border: 2px solid var(--primary-color);
+        padding: 10px;
+        background-color: transparent;
+        color: white;
+    }
 }

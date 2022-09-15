@@ -235,4 +235,32 @@ footer #coockies a {
   bottom: 0;
   left: 0;
   right: 0;
+  padding: 20px 0;
+  background-color: #303030;
+}
+#bottom-footer .bottom-footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#bottom-footer #social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#bottom-footer #social-links > figure {
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+}
+#bottom-footer #social-links .follow-us {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+#bottom-footer .sign-up {
+  display: block;
+  border: 2px solid var(--primary-color);
+  padding: 10px;
+  background-color: transparent;
+  color: white;
 }
