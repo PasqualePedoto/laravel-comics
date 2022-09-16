@@ -30,7 +30,7 @@
             <div class="row">
                 @foreach($comics as $comic)
                     <div class="col">
-                        <a href="{{ route($comic['link']) }}">
+                        <a href="#">
                             <figure>
                                 <img src="{{ $comic['thumb'] }}" alt="">
                             </figure>
