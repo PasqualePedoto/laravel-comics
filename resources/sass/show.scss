@@ -92,10 +92,11 @@
         background-color: #f6f6f6;
 
         .block-icon {
-            border: 1px solid #dedede;
+            border-right: 1px solid #dedede;
+            border-left: 1px solid #dedede;
 
             font-size: 12px;
-            padding: 20px 0;
+            padding: 20px 5px;
 
             figure {
                 width: 50px;

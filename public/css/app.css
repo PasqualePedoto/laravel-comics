@@ -280,9 +280,10 @@ TOP HEADER
   background-color: #f6f6f6;
 }
 #main-show-content .icons .block-icon {
-  border: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  border-left: 1px solid #dedede;
   font-size: 12px;
-  padding: 20px 0;
+  padding: 20px 5px;
 }
 #main-show-content .icons .block-icon figure {
   width: 50px;
