@@ -31,8 +31,44 @@ figure {
   display: flex;
 }
 
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
 .w-50 {
   width: 50%;
+}
+
+.w-30 {
+  width: 30%;
 }
 
 .container {
@@ -150,6 +186,71 @@ TOP HEADER
   background-repeat: no-repeat;
   height: 700px;
   width: 100%;
+}
+
+#main-show-content .blue-block {
+  height: 100px;
+  background-color: var(--primary-color);
+}
+#main-show-content #content {
+  display: flex;
+  justify-content: center;
+}
+#main-show-content #content .description {
+  width: 70%;
+}
+#main-show-content #content .description .shopping-content {
+  display: flex;
+  box-shadow: 2px 3px 3px #dedede;
+  background-color: #55ba59;
+}
+#main-show-content #content .description .shopping-content > div {
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+#main-show-content #content .description .shopping-content .price {
+  flex-basis: 70%;
+}
+#main-show-content #content .description .shopping-content .availability {
+  flex-basis: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main-show-content #content .advertisement {
+  width: 30%;
+}
+#main-show-content #content .description,
+#main-show-content #content .advertisement {
+  padding: 10px 1rem;
+}
+#main-show-content #content .description .text-white,
+#main-show-content #content .advertisement .text-white {
+  color: white;
+}
+#main-show-content #content .description .text-green,
+#main-show-content #content .advertisement .text-green {
+  color: lightgreen;
+}
+#main-show-content #content figure {
+  width: 300px;
+}
+#main-show-content #content-details {
+  background-color: #f6f6f6;
+  color: #4a6c7d;
+}
+#main-show-content #content-details #talent-content,
+#main-show-content #content-details #specs-content {
+  padding: 0 1rem;
+}
+#main-show-content .insertion {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+#main-show-content .artists,
+#main-show-content .writers {
+  color: #79c1e1;
 }
 
 main {

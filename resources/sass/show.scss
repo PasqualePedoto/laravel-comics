@@ -1,0 +1,88 @@
+#main-show-content {
+    // Banner Blue
+    .blue-block {
+        height: 100px;
+        background-color: var(--primary-color);
+    }
+    // Tutto ciò che riguarda il contenuto del comics
+    #content {
+        display: flex;
+        justify-content: center;
+
+        .description {
+            width: 70%;
+
+            // Shopping
+            .shopping-content {
+                display: flex;
+
+                box-shadow: 2px 3px 3px #dedede;
+
+                background-color: #55ba59;
+
+                > div {
+                    padding: 10px 20px;
+                    border: 1px solid black;
+                }
+
+                .price {
+                    flex-basis: 70%;
+                }
+
+                .availability {
+                    flex-basis: 30%;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .advertisement {
+            width: 30%;
+        }
+
+        .description,
+        .advertisement {
+            padding: 10px 1rem;
+
+            .text-white {
+                color: white;
+            }
+
+            .text-green {
+                color: lightgreen;
+            }
+        }
+
+        // Figure per l'advertisement
+        figure {
+            width: 300px;
+        }
+    }
+
+    // Informazioni dettagliate sul fumetto
+    #content-details {
+        background-color: #f6f6f6;
+
+        color: #4a6c7d;
+
+        #talent-content,
+        #specs-content {
+            padding: 0 1rem;
+        }
+    }
+
+    .insertion {
+        display: flex;
+        justify-content: space-between;
+
+        padding: 1rem;
+    }
+
+    .artists,
+    .writers {
+        color: #79c1e1;
+    }
+}
