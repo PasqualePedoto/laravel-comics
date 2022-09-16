@@ -7,7 +7,7 @@ $comics = config('comics');
         <div class="row">
             @foreach($comics as $comic)
                 <div class="col">
-                    <a href="#">
+                    <a href="{{ route('comics.show',['id' => $loop->index]) }}">
                         <figure>
                             <img src="{{ $comic['thumb'] }}" alt="">
                         </figure>
