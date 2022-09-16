@@ -12,10 +12,26 @@
     justify-content: space-between;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
 // Margin
 
 .mr-10 {
     margin-right: 10px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-40 {
+    margin-right: 40px;
 }
 
 .mb-30 {
@@ -40,6 +56,16 @@
 
 .mb-50 {
     margin-bottom: 50px;
+}
+
+// Padding
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
 }
 
 // Width

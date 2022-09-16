@@ -88,5 +88,35 @@
                 </div>
             </div>
         </div>
+        <hr>
+        {{-- ICONS --}}
+        <div class="icons">
+            <div class="container flex justify-content-center">
+                <div class="flex justify-content-between block-icon">
+                    <div class="mr-40">DIGITAL COMICS</div>
+                    <figure>
+                        <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="icons">
+                    </figure>
+                </div>
+                <div class="flex justify-content-between block-icon">
+                    <div class="mr-40">SHOP DC</div>
+                    <figure>
+                        <img src="{{asset('images/buy-comics-merchandise.png')}}" alt="icons">
+                    </figure>
+                </div>
+                <div class="flex justify-content-between block-icon">
+                    <div class="mr-40">COMIC SHOP LOCATOR</div>
+                    <figure>
+                        <img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="icons">
+                    </figure>
+                </div>
+                <div class="flex justify-content-between block-icon">
+                    <div class="mr-40">SUBSCRIPTIONS</div>
+                    <figure>
+                        <img src="{{asset('images/buy-dc-power-visa.svg')}}" alt="icons">
+                    </figure>
+                </div>
+            </div>
+        </div>
     </section>
 @endsection 
