@@ -14,12 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('comics');
-});
+    return view('comics',["active" => "COMICS"]);
+})->name('comics');
 
 Route::get('/comics/{id}', function ($id) {
     $comics = config('comics');
     $comic = $comics[$id];
     return view('comics.show',compact('comic'));
 })->name('comics.show');
+
+Route::get('/menu/{link}', function ($link) {
+    return view('comics',["active" => $link]);
+})->name('menu');
+
 

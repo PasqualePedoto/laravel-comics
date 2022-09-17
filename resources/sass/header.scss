@@ -68,6 +68,14 @@ TOP HEADER
                     font-weight: bold;
                 }
             }
+
+            li.active {
+                border-bottom: 3px solid var(--primary-color);
+
+                a {
+                    color: var(--primary-color);
+                }
+            }
         }
     }
 }

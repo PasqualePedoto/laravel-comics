@@ -191,6 +191,12 @@ TOP HEADER
   font-size: 12px;
   font-weight: bold;
 }
+#top-header .content-top-header ul li.active {
+  border-bottom: 3px solid var(--primary-color);
+}
+#top-header .content-top-header ul li.active a {
+  color: var(--primary-color);
+}
 
 .input-block {
   display: flex;
